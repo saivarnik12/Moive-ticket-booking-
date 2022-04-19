@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movies</title>
+	<script src="https://kit.fontawesome.com/4955124e8b.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+	<style type="text/css">
+		#container
+		{
+			display: grid;
+			grid-template-areas: 
+			'h1 h1 h1 h1 h1 h1'
+			'b1 b1 b2 b2 b3 b3'
+		}
+		#head
+		{
+			grid-area: h1;
+			background-color: #361500;
+			padding: 10px;
+		}
+		#body1
+		{
+			grid-area: b1;
+			padding: 50px 10px 10px 10px;
+			max-height: 100%;
+		}
+		#body2
+		{
+			grid-area: b2;
+			padding: 50px 10px 10px 10px;
+			max-height: 100%;
+		}
+		#body3
+		{
+			grid-area: b3;
+			padding: 50px 10px 10px 10px;
+			max-height: 100%;
+		}
+		.image
+		{
+			width: 300px;
+			height: 300px;
+			margin-bottom: 50px;
+			margin-left: 50px;
+			border: 1px solid silver;
+		}
+		.image:hover
+		{
+			width: 350px;
+			height: 350px;
+			opacity: 0.5;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		
+		<div id="head">
+		<a href="index.html"><i class="fas fa-check-double" style=" color:red; font-size: 20px;">Movie Booking</i></a>
+
+	</div>
+	<div id="body1">
+		 <a href="booking.html"><img src="./image/fast and furious 9.jfif"  class="image" /></a><br>
+		 <a href="booking.html"><img src="./image/Wrath of man.jfif"  class="image" /></a><br>
+		 <a href="booking.html"><img src="./image/KGF-2.jfif"  class="image" /></a>
+
+	</div>
+	<div id="body2">
+		<a href="booking.html"><img src="./image/spider man no way home.jpg" class="image" /></a><br>
+		<a href="booking.html"><img src="./image/radheshyam.jpg" class="image" /></a><br>
+		<a href="booking.html"><img src="./image/batman.jpg"  class="image" /></a>
+	</div>
+	<div id="body3">
+          <a href="booking.html"><img src="./image/rrr.jpg"  class="image"/></a><br>
+		  <a href="booking.html"><img src="./image/pushpa.jpg" class="image" /></a><br>
+		  <a href="booking.html"><img src="./image/morbius.jpg"  class="image" /></a>
+
+	</div>
+	</div>
+
+</body>
+</html>
